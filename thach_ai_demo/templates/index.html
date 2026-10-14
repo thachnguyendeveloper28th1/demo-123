@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thach AI — Portfolio Chat</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="app"><aside class="sidebar"><div class="logo"><span class="spark">✦</span> THACH <b>AI</b></div><button class="new" id="newChat">＋ Cuộc trò chuyện mới</button><div class="sidebar-foot"><a href="https://github.com/nhatanhng" target="_blank" rel="noopener">↗ GitHub tham khảo</a><small>Personal Portfolio Assistant • v1.0</small></div></aside>
+<section class="chat"><header><div><strong>Thach AI</strong><small>Trợ lý hỏi đáp portfolio</small></div><span class="status"><i></i>{{ mode }}</span></header>
+<div class="messages" id="messages"><section class="welcome" id="welcome"><div class="bigicon">✦</div><h1>Xin chào, mình là Thach AI</h1><p>Hỏi mình về profile GitHub và các dự án, hoặc kết nối Gemini để chat nhiều chủ đề hơn.</p><div class="suggestions"><button data-question="Giới thiệu về chủ nhân GitHub này">Giới thiệu bản thân</button><button data-question="Bạn đã làm những dự án nào?">Các dự án nổi bật</button><button data-question="Cho mình link GitHub">Xem GitHub</button></div></section></div>
+<div class="composer"><form id="chatForm"><textarea id="message" rows="1" maxlength="4000" placeholder="Nhập câu hỏi... (Enter để gửi)"></textarea><button id="send" type="submit" aria-label="Gửi">➤</button></form><p>Phiên chat lưu trong trình duyệt của bạn. Không nhập mật khẩu hoặc thông tin nhạy cảm.</p></div></section></main>
+<script src="/static/app.js"></script></body></html>

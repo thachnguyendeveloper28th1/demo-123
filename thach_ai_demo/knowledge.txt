@@ -1,0 +1,7 @@
+Thông tin tham khảo về GitHub https://github.com/nhatanhng
+- Repository intro/README.md ghi: Name: Nguyễn Nhật Anh; Student ID: BI12-022. Thông tin này thuộc chủ nhân GitHub tham chiếu, không mặc định là người đang chạy ứng dụng.
+- Các repository công khai đã tìm thấy: pp2023, ricedata-be, intro, USTHOpenDotaClient, androiddev2023, ricedata-fe.
+- ricedata-fe có README khởi tạo React + Vite.
+- ricedata-be gồm app.py và models.py (Python).
+- Chưa xác minh email, số điện thoại, kinh nghiệm làm việc hay kỹ năng cụ thể của chủ nhân profile. Không bịa thông tin.
+- Bạn có thể thay toàn bộ file này bằng thông tin portfolio CỦA BẠN để cá nhân hoá bot.
